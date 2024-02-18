@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
+    <body>
+        <header>
+            <div id="account">
+                <img src="/assets/foto-perfil.png" id="profile-pirture" alt="">
+                <p id="profile-name">Daniel Alves</p>
+                <button id="account-menu" class="bi bi-caret-down-fill"></button>
+            </div>
+        </header>
+
+        <main>
+            <audio id="current-music" src="/musics/Anjo-Roupa Nova.mp3"></audio>
+            <div id="container-frame">
+                <img id="album-img" src="/assets/roupa-nova-capa.jpeg" alt="">
+                <div id="container-music-txt">
+                    <h1 id="music-name">Anjo</h1>
+                    <p id="music-artists">Roupa Nova</p>
+                </div>
+                <div id="container-buttons">
+                    <button id="return-music" class="bi bi-skip-start-fill"></button>
+                    <button id="play-pause" class="bi bi-play-circle-fill"></button>
+                    <button id="skip-music" class="bi bi-skip-end-fill"></button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+ 
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(to top, #3475a0, #000000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+
+#account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-top: 7px;
+}
+
+#profile-pirture {
+    width: 33px;
+    border-radius: 100%;
+}
+
+#profile-name {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+#account-menu {
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#container-frame {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+#album-img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+#container-music-txt {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+#music-name {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+#music-artists {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+#container-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+#return-music {
+    scale: 3;
+    color: #ffffff;
+    background: none;
+    cursor: pointer;
+}
+#return-music:active {
+    color: #ffffff86;
+}
+
+#play-pause {
+    scale: 4;
+    color: #ffffff;
+    background: none;
+    cursor: pointer;
+}
+#play-pause:active {
+    color: #ffffff86;
+}
+
+#skip-music {
+    scale: 3;
+    color: #ffffff;
+    background: none;
+    cursor: pointer;
+}
+#skip-music:active {
+    color: #ffffff86;
+}
+
+#copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+}
